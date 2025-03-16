@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import ParentComponent from './components/ParentComponent.vue';
 import TheWelcome from './components/TheWelcome.vue'
 import count from './components/count.vue';
 
@@ -15,6 +16,8 @@ import count from './components/count.vue';
   </header>
 
   <count count=5 />
+
+  <ParentComponent />
 
 
 
