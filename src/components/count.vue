@@ -12,12 +12,14 @@ const checked = ref(false);
 //     console.log(checked.value)
 // }
 
+const name = ref('');
 
 const handleCLick = () =>{
     checked.value = !checked.value
+console.log('checkm', checked.value)
+
 }
 
-console.log('checkm', checked.value)
 
 
 </script>

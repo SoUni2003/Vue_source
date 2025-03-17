@@ -15,11 +15,9 @@ import count from './components/count.vue';
     </div>
   </header>
 
-  <count count=5 />
+  <count />
 
   <ParentComponent />
-
-
 
   <main>
     <TheWelcome />
